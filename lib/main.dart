@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
 //potti
+//kanna
 
 void main() {
   runApp(const MainApp());
@@ -94,6 +95,18 @@ class _AnimatedTextWithTweenState extends State<AnimatedTextWithTween>
               ),
             ),
             SizedBox(height: 15),
+
+            // Third text widget
+            Text(
+              'Amazing Text Effects!',
+              style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w500,
+                color: Colors.purple.shade700,
+                fontStyle: FontStyle.italic,
+              ),
+            ),
+            SizedBox(height: 20),
 
             // GestureDetector for Hero Animation
             GestureDetector(
