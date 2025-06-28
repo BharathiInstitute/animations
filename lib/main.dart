@@ -108,6 +108,18 @@ class _AnimatedTextWithTweenState extends State<AnimatedTextWithTween>
             ),
             SizedBox(height: 20),
 
+            // Fourth text widget
+            Text(
+              'Explore Beautiful Animations',
+              style: TextStyle(
+                fontSize: 16,
+                fontWeight: FontWeight.w400,
+                color: Colors.green.shade600,
+                decoration: TextDecoration.underline,
+              ),
+            ),
+            SizedBox(height: 25),
+
             // GestureDetector for Hero Animation
             GestureDetector(
               onTap: () {
