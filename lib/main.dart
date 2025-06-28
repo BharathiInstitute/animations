@@ -120,6 +120,18 @@ class _AnimatedTextWithTweenState extends State<AnimatedTextWithTween>
             ),
             SizedBox(height: 25),
 
+            // Fifth text widget
+            Text(
+              'Creative Text Showcase',
+              style: TextStyle(
+                fontSize: 17,
+                fontWeight: FontWeight.w600,
+                color: Colors.orange.shade700,
+                letterSpacing: 1.2,
+              ),
+            ),
+            SizedBox(height: 20),
+
             // GestureDetector for Hero Animation
             GestureDetector(
               onTap: () {
