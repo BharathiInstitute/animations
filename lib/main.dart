@@ -84,6 +84,17 @@ class _AnimatedTextWithTweenState extends State<AnimatedTextWithTween>
             ),
             SizedBox(height: 20),
 
+            // Another simple text widget
+            Text(
+              'Flutter Animations Demo',
+              style: TextStyle(
+                fontSize: 20,
+                fontWeight: FontWeight.w600,
+                color: Colors.blue.shade600,
+              ),
+            ),
+            SizedBox(height: 15),
+
             // GestureDetector for Hero Animation
             GestureDetector(
               onTap: () {
